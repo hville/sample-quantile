@@ -1,0 +1,19 @@
+{
+  "name": "sample-quantile",
+  "version": "0.0.1",
+  "description": "simple ",
+  "main": "./sample-quantile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "4.2.0"
+  },
+  "scripts": {
+    "test": "tape"
+  },
+  "keywords": [],
+  "author": "Hugo Villeneuve",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  }
+}
