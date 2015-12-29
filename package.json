@@ -1,19 +1,23 @@
 {
-  "name": "sample-quantile",
-  "version": "0.0.1",
-  "description": "simple ",
-  "main": "./sample-quantile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "4.2.0"
-  },
-  "scripts": {
-    "test": "tape"
-  },
-  "keywords": [],
-  "author": "Hugo Villeneuve",
-  "license": "MIT",
-  "directories": {
-    "test": "test"
-  }
+	"name": "sample-quantile",
+	"version": "0.0.3",
+	"description": "simple ",
+	"main": "./index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"tt": "1.0.3",
+		"untap": "0.2.0"
+	},
+	"scripts": {
+		"test": "untap test"
+	},
+	"keywords": [],
+	"author": "Hugo Villeneuve",
+	"private": true,
+	"license": "UNLICENSED",
+	"repository": {
+		"type": "git",
+		"url": "git+https://hville@bitbucket.org/hville/sample-quantile.git"
+	},
+	"homepage": "https://bitbucket.org/hville/sample-quantile#readme"
 }
