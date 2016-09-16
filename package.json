@@ -1,0 +1,27 @@
+{
+	"name": "sample-quantile",
+	"version": "1.0.0",
+	"description": "sample quantile value(s) of given probabilities",
+	"main": "./sample-quantile.js",
+	"private": false,
+	"dependencies": {},
+	"devDependencies": {
+		"cotest": "^1.0.0"
+	},
+	"scripts": {
+		"test": "cotest test"
+	},
+	"keywords": [
+		"precentile", "precentiles", "quantile", "quantiles", "sample", "samples"
+	],
+	"author": "Hugo Villeneuve",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hville/sample-quantile.git"
+	},
+	"homepage": "https://bitbucket.org/hville/sample-quantile#readme",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	}
+}
