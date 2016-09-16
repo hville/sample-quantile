@@ -33,7 +33,7 @@ This implementation is based on the following:
 
 ## Utilities
 
-Where performance is important, the subfunctions for single numbers and for arrays can be called directly to avoid the internal checks:
+When performance is important, the subfunctions for single numbers and for arrays can be called directly to avoid the internal checks:
 
 `sampleQuantile.single(arrayOfSamples, probability) // --> quantile value number`
 
