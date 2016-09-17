@@ -28,7 +28,7 @@ function asc (a, b) {
  */
 function arrayQuantiles(sorted, probs) {
 	for (var i = 0, arr = Array(probs.length); i < probs.length; ++i) {
-		arr[i] = sampleQuantile(sorted, probs[i])
+		arr[i] = singleQuantile(sorted, probs[i])
 	}
 	return arr
 }

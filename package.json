@@ -1,6 +1,6 @@
 {
 	"name": "sample-quantile",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "sample quantile value(s) of given probabilities",
 	"main": "./sample-quantile.js",
 	"private": false,
