@@ -5,10 +5,11 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "^9.4.6",
-		"cotest": "^1.6.1"
+		"cotest": "^3.0.0"
 	},
 	"scripts": {
-		"test": "cotest test"
+		"test": "cotest test",
+		"prepublishOnly": "npm test"
 	},
 	"keywords": [
 		"precentile",
