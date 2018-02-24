@@ -35,16 +35,8 @@ This implementation is based on the following:
 
 When performance is important, the subfunctions for single numbers and for arrays can be called directly to avoid the internal checks:
 
-`sampleQuantile.single(arrayOfSamples, probability) // --> quantile value number`
-
-* `arrayOfSamples` is an array of sorted samples
-* `probability` single probability number (`0 <= x <= 1`)
-
-`sampleQuantile.array(arrayOfSamples, probabilities) // --> quantile values array`
-
-* `arrayOfSamples` is an array of sorted samples
-* `probabilities` array of probability numbers (`0 <= x <= 1`)
-
+`require('sample-quantile/quantile')(samples, probability) : number`
+`require('sample-quantile/quantiles')(samples, probabilities) : Array<number>`
 
 ## License
 
